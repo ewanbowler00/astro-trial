@@ -1,12 +1,19 @@
-<a href="/">Home</a>
-<a href="/about/">About</a>
-<a href="/blog/">Blog</a>
+---
+const pageTitle = "Blog";
+---
 
-<body>
-  <h1>Blog</h1>
+<title>{pageTitle}</title>
+
+<body
+  ><a href="/">Home</a>
+  <a href="/about/">About</a>
+  <a href="/blog/">Blog</a>
+  <h1>{pageTitle}</h1>
   <h2>This is the blog!</h2>
-
-  <p>Blog blog blog</p>
-
-  <p>Wowee</p>
+  <p>I will be posting so many cool blog posts below where I will post blogs</p>
+  <ul>
+    <li><a href="/posts/post-1">Post 1</a></li>
+    <li><a href="/posts/post-2/">Post 2</a></li>
+    <li><a href="/posts/post-3/">Post 3</a></li>
+  </ul>
 </body>

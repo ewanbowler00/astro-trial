@@ -1,9 +1,9 @@
 ---
+const pageTitle = "Home Page";
 ---
 
-<a href="/">Home</a>
-<a href="/about/">About</a>
-<a href="/blog/">Blog</a>
+<title>{pageTitle}</title>
+
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -12,8 +12,11 @@
     <meta name="generator" content={Astro.generator} />
     <title>Astro</title>
   </head>
-  <body>
-    <h1>Astro</h1>
+  <body
+    ><a href="/">Home</a>
+    <a href="/about/">About</a>
+    <a href="/blog/">Blog</a>
+    <h1>{pageTitle}</h1>
     <p>Astro site</p>
   </body>
 </html>
